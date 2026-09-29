@@ -123,6 +123,7 @@ class Handler(BaseHTTPRequestHandler):
         store = self.server.store
         if method == 'GET':
             files = {'/': ('static/index.html', 'text/html; charset=utf-8'),
+                     '/csv.js': ('static/csv.js', 'text/javascript; charset=utf-8'),
                      '/app.js': ('static/app.js', 'text/javascript; charset=utf-8'),
                      '/style.css': ('static/style.css', 'text/css; charset=utf-8')}
             if path in files:
