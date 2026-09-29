@@ -16,7 +16,7 @@ MOCK_FAILURE_RATE=0 DATABASE_PATH=data/demo.sqlite3 python3 -m catalogiq.server
 ollama serve
 
 # Terminal 3: real model (pull it once beforehand)
-LLM_PROVIDER=ollama OLLAMA_MODEL=qwen2.5:0.5b LLM_CONCURRENCY=2 PORT=8001 DATABASE_PATH=data/ollama-demo.sqlite3 python3 -m catalogiq.server
+LLM_PROVIDER=ollama OLLAMA_MODEL=llama3.2:3b LLM_CONCURRENCY=2 PORT=8001 DATABASE_PATH=data/llama-demo.sqlite3 python3 -m catalogiq.server
 ```
 
 Use the model actually installed on your laptop. To run the real provider at the assignment's port 8000, stop mock mode and omit `PORT=8001`.

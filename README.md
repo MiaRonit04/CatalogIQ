@@ -142,6 +142,17 @@ The following JSON is product data:
 
 **Not implemented / production gaps:** distributed workers, RPM/token rate limiting, automatic provider fallback, batching, full-text/cursor search, semantic confidence scores, authentication, migrations, queue retention/quotas, fairness and per-item audit history. The standard-library HTTP server is for a local assessment; public production serving needs a production server/proxy, authentication and resource controls. These gaps and alternatives are discussed in `DESIGN.md`.
 
+## Verification on 2026-09-29
+
+- 19 Python tests passed, including acceptance of a 10,000-row job in under one second and Unicode case-insensitive search.
+- 4 Node CSV tests passed, including quoted commas/newlines, malformed input and sample duplicate counts.
+- Browser checks covered upload, live completion, search, filtering, pagination, human approval, and approval persistence after a server restart. At 360 px, document width was 360 px with no horizontal overflow; desktop layout was also inspected.
+- Fresh mock sample: 240 completed, 0 failed, 40 cache hits, 200 LLM calls, peak concurrency 5. Re-upload: 240 cache hits and no additional calls.
+- Real Ollama inference with **Llama 3.2 3B**: all three rows in `data/real_demo.csv` completed with 3 calls, 0 errors and peak concurrency 2. Butter, charger and shampoo were categorized as Groceries, Electronics and Personal Care, respectively, with the explicit brands preserved. This is a smoke test, not a general quality benchmark.
+- The smaller Qwen 2.5 0.5B model was also tried: it returned valid JSON but misclassified the shampoo. Llama 3.2 3B is the recommended demonstration model; review remains necessary.
+
+On the prepared laptop, mock mode is running on port 8000 with `data/demo.sqlite3`; real mode is running on port 8001 with `data/llama-demo.sqlite3`. These are temporary development processes, not login services. Use the playbook commands to restart them. Runtime databases and downloaded models are not in Git.
+
 ## AI assistance and submission
 
 Codex assisted with implementation, test generation, documentation and browser checks. The candidate should rehearse the code paths and complete the no-AI exercises in `docs/INTERVIEW_PREP.md`; do not claim independent authorship or understanding that has not been demonstrated.
