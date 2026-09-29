@@ -163,7 +163,7 @@ class APITests(unittest.TestCase):
 
     def test_health_metrics_and_fast_background_submission(self):
         self.assertEqual(self.request('/api/health'),(200,dict(status='ok',llm_provider='mock',llm_concurrency=2)))
-        start=time.monotonic();status,j=self.request('/api/jobs','POST',{'products':products(200)})
+        start=time.monotonic();status,j=self.request('/api/jobs','POST',{'products':products(10000)})
         self.assertEqual(status,202);self.assertLess(time.monotonic()-start,1)
         start=time.monotonic();self.assertEqual(self.request('/api/health')[0],200);self.assertLess(time.monotonic()-start,.5)
         self.assertIn(j['status'],('queued','running'));self.assertLess(j['done'],j['total'])
@@ -200,6 +200,12 @@ class APITests(unittest.TestCase):
         for body in [{'category':'Wrong'},{'clean_title':' '},{'tags':['UPPER']},{'tags':'bad'},{'brand':'no'},{'tags':['a']*6}]:
             self.assertEqual(self.request('/api/products/SKU-0000','PATCH',body)[0],400)
         self.assertEqual(self.request('/api/products/missing','PATCH',{'clean_title':'x'})[0],404)
+
+    def test_unicode_case_insensitive_search(self):
+        status,j=self.request('/api/jobs','POST',{'products':[{'sku':'UNICODE','raw_title':'CAFÉ crème'}]})
+        wait_job(self.store,j)
+        from urllib.parse import quote
+        self.assertEqual(self.request('/api/products?q='+quote('café'))[1]['total'],1)
 
     def test_existing_sku_updates_and_description_optional(self):
         for title in ['first','second']:

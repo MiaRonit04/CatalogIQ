@@ -8,7 +8,7 @@ const notice = (message, error=false) => { $('notice').textContent=message; $('n
 async function api(path, options) {
   const response = await fetch(path, options);
   const value = await response.json();
-  if (!response.ok) throw new Error(value.error || 'Request failed');
+  if (!response.ok) { const error=new Error(value.error || 'Request failed'); error.status=response.status; throw error; }
   return value;
 }
 function option(select, text, value=text) { const el=document.createElement('option'); el.value=value; el.textContent=text; select.append(el); }
@@ -52,8 +52,8 @@ function watchJob(id) {
       $('job-progress').max=j.total; $('job-progress').value=j.done;
       $('job-done').textContent=`${j.done} / ${j.total}`; $('job-failed').textContent=j.failed; $('job-hits').textContent=j.cache_hits;
       await metrics(); completed=j.status==='completed';
-      if(completed)await loadProducts();
-    }catch(error){notice(error.message,true);}
+      if(completed){notice(`Job complete: ${j.done} processed, ${j.failed} failed, ${j.cache_hits} cache hits.`);await loadProducts();}
+    }catch(error){notice(error.message,true);if(error.status===404)completed=true;}
     // Schedule after completion: never poll faster than once a second, never overlap.
     if(!completed&&generation===jobGeneration)pollTimer=setTimeout(poll,1000);
   }
