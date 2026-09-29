@@ -1,0 +1,241 @@
+sku,raw_title,raw_description
+CAT-0001,  AMUL butter   100G ,"Salted dairy butter, keep refrigerated"
+CAT-0002,  AMUL butter   200G ,"Salted dairy butter, keep refrigerated"
+CAT-0003,  AMUL butter   500G ,"Salted dairy butter, keep refrigerated"
+CAT-0004,  AMUL butter   1KG ,"Salted dairy butter, keep refrigerated"
+CAT-0005,  AMUL butter   250G ,"Salted dairy butter, keep refrigerated"
+CAT-0006,  Tata salt   100G ,Iodised cooking salt
+CAT-0007,  Tata salt   200G ,Iodised cooking salt
+CAT-0008,  Tata salt   500G ,Iodised cooking salt
+CAT-0009,  Tata salt   1KG ,Iodised cooking salt
+CAT-0010,  Tata salt   2KG ,Iodised cooking salt
+CAT-0011,  Fortune rice   500G ,Basmati rice for everyday meals
+CAT-0012,  Fortune rice   1KG ,Basmati rice for everyday meals
+CAT-0013,  Fortune rice   2KG ,Basmati rice for everyday meals
+CAT-0014,  Fortune rice   5KG ,Basmati rice for everyday meals
+CAT-0015,  Fortune rice   10KG ,Basmati rice for everyday meals
+CAT-0016,  Aashirvaad atta   500G ,Whole wheat flour
+CAT-0017,  Aashirvaad atta   1KG ,Whole wheat flour
+CAT-0018,  Aashirvaad atta   2KG ,Whole wheat flour
+CAT-0019,  Aashirvaad atta   5KG ,Whole wheat flour
+CAT-0020,  Aashirvaad atta   10KG ,Whole wheat flour
+CAT-0021,  Britannia biscuit   50G ,Crunchy tea-time snack
+CAT-0022,  Britannia biscuit   100G ,Crunchy tea-time snack
+CAT-0023,  Britannia biscuit   200G ,Crunchy tea-time snack
+CAT-0024,  Britannia biscuit   400G ,Crunchy tea-time snack
+CAT-0025,  Britannia biscuit   600G ,Crunchy tea-time snack
+CAT-0026,  Nestle milk   200ML ,UHT toned milk carton
+CAT-0027,  Nestle milk   500ML ,UHT toned milk carton
+CAT-0028,  Nestle milk   1L ,UHT toned milk carton
+CAT-0029,  Nestle milk   2L ,UHT toned milk carton
+CAT-0030,  Nestle milk   100ML ,UHT toned milk carton
+CAT-0031,  pasta penne   100G ,Durum wheat pasta
+CAT-0032,  pasta penne   200G ,Durum wheat pasta
+CAT-0033,  pasta penne   500G ,Durum wheat pasta
+CAT-0034,  pasta penne   1KG ,Durum wheat pasta
+CAT-0035,  pasta penne   250G ,Durum wheat pasta
+CAT-0036,  rolled oats   100G ,Plain breakfast cereal
+CAT-0037,  rolled oats   200G ,Plain breakfast cereal
+CAT-0038,  rolled oats   500G ,Plain breakfast cereal
+CAT-0039,  rolled oats   1KG ,Plain breakfast cereal
+CAT-0040,  rolled oats   750G ,Plain breakfast cereal
+CAT-0041,  Tata tea   100G ,Loose leaf black tea
+CAT-0042,  Tata tea   200G ,Loose leaf black tea
+CAT-0043,  Tata tea   250G ,Loose leaf black tea
+CAT-0044,  Tata tea   500G ,Loose leaf black tea
+CAT-0045,  Tata tea   1KG ,Loose leaf black tea
+CAT-0046,  Nescafe coffee   25G ,Instant coffee in glass jar
+CAT-0047,  Nescafe coffee   50G ,Instant coffee in glass jar
+CAT-0048,  Nescafe coffee   100G ,Instant coffee in glass jar
+CAT-0049,  Nescafe coffee   200G ,Instant coffee in glass jar
+CAT-0050,  Nescafe coffee   250G ,Instant coffee in glass jar
+CAT-0051,  orange juice   200ML ,"Fruit beverage, no added sugar"
+CAT-0052,  orange juice   500ML ,"Fruit beverage, no added sugar"
+CAT-0053,  orange juice   1L ,"Fruit beverage, no added sugar"
+CAT-0054,  orange juice   2L ,"Fruit beverage, no added sugar"
+CAT-0055,  orange juice   250ML ,"Fruit beverage, no added sugar"
+CAT-0056,  mineral water   250ML ,Packaged drinking water
+CAT-0057,  mineral water   500ML ,Packaged drinking water
+CAT-0058,  mineral water   1L ,Packaged drinking water
+CAT-0059,  mineral water   2L ,Packaged drinking water
+CAT-0060,  mineral water   5L ,Packaged drinking water
+CAT-0061,  cola drink   200ML ,Carbonated soft drink
+CAT-0062,  cola drink   300ML ,Carbonated soft drink
+CAT-0063,  cola drink   500ML ,Carbonated soft drink
+CAT-0064,  cola drink   1L ,Carbonated soft drink
+CAT-0065,  cola drink   2L ,Carbonated soft drink
+CAT-0066,  Dove shampoo   80ML ,Daily moisture hair wash
+CAT-0067,  Dove shampoo   180ML ,Daily moisture hair wash
+CAT-0068,  Dove shampoo   250ML ,Daily moisture hair wash
+CAT-0069,  Dove shampoo   500ML ,Daily moisture hair wash
+CAT-0070,  Dove shampoo   1L ,Daily moisture hair wash
+CAT-0071,  Colgate toothpaste   50G ,Fluoride toothpaste
+CAT-0072,  Colgate toothpaste   100G ,Fluoride toothpaste
+CAT-0073,  Colgate toothpaste   150G ,Fluoride toothpaste
+CAT-0074,  Colgate toothpaste   200G ,Fluoride toothpaste
+CAT-0075,  Colgate toothpaste   300G ,Fluoride toothpaste
+CAT-0076,  Dove soap   50G ,Gentle cleansing bar
+CAT-0077,  Dove soap   75G ,Gentle cleansing bar
+CAT-0078,  Dove soap   100G ,Gentle cleansing bar
+CAT-0079,  Dove soap   125G ,Gentle cleansing bar
+CAT-0080,  Dove soap   150G ,Gentle cleansing bar
+CAT-0081,  body lotion   50ML ,Unscented daily moisturizer
+CAT-0082,  body lotion   100ML ,Unscented daily moisturizer
+CAT-0083,  body lotion   200ML ,Unscented daily moisturizer
+CAT-0084,  body lotion   400ML ,Unscented daily moisturizer
+CAT-0085,  body lotion   500ML ,Unscented daily moisturizer
+CAT-0086,  roll on deodorant   25ML ,Fresh fragrance
+CAT-0087,  roll on deodorant   40ML ,Fresh fragrance
+CAT-0088,  roll on deodorant   50ML ,Fresh fragrance
+CAT-0089,  roll on deodorant   75ML ,Fresh fragrance
+CAT-0090,  roll on deodorant   100ML ,Fresh fragrance
+CAT-0091,  Surf Excel detergent   500G ,Front load washing powder
+CAT-0092,  Surf Excel detergent   1KG ,Front load washing powder
+CAT-0093,  Surf Excel detergent   2KG ,Front load washing powder
+CAT-0094,  Surf Excel detergent   4KG ,Front load washing powder
+CAT-0095,  Surf Excel detergent   5KG ,Front load washing powder
+CAT-0096,  Vim dishwash   100ML ,Lemon dish cleaning gel
+CAT-0097,  Vim dishwash   250ML ,Lemon dish cleaning gel
+CAT-0098,  Vim dishwash   500ML ,Lemon dish cleaning gel
+CAT-0099,  Vim dishwash   1L ,Lemon dish cleaning gel
+CAT-0100,  Vim dishwash   2L ,Lemon dish cleaning gel
+CAT-0101,  floor cleaner   250ML ,Citrus fragrance
+CAT-0102,  floor cleaner   500ML ,Citrus fragrance
+CAT-0103,  floor cleaner   1L ,Citrus fragrance
+CAT-0104,  floor cleaner   2L ,Citrus fragrance
+CAT-0105,  floor cleaner   5L ,Citrus fragrance
+CAT-0106,  facial tissue   50 sheets ,Two ply soft tissues
+CAT-0107,  facial tissue   100 sheets ,Two ply soft tissues
+CAT-0108,  facial tissue   150 sheets ,Two ply soft tissues
+CAT-0109,  facial tissue   200 sheets ,Two ply soft tissues
+CAT-0110,  facial tissue   250 sheets ,Two ply soft tissues
+CAT-0111,  garbage bags   10 pcs ,Medium size bin liners
+CAT-0112,  garbage bags   20 pcs ,Medium size bin liners
+CAT-0113,  garbage bags   30 pcs ,Medium size bin liners
+CAT-0114,  garbage bags   40 pcs ,Medium size bin liners
+CAT-0115,  garbage bags   50 pcs ,Medium size bin liners
+CAT-0116,  Samsung charger   15W ,USB C wall adapter
+CAT-0117,  Samsung charger   20W ,USB C wall adapter
+CAT-0118,  Samsung charger   25W ,USB C wall adapter
+CAT-0119,  Samsung charger   35W ,USB C wall adapter
+CAT-0120,  Samsung charger   45W ,USB C wall adapter
+CAT-0121,  usb cable   0.5m ,Braided USB A to C cable
+CAT-0122,  usb cable   1m ,Braided USB A to C cable
+CAT-0123,  usb cable   1.5m ,Braided USB A to C cable
+CAT-0124,  usb cable   2m ,Braided USB A to C cable
+CAT-0125,  usb cable   3m ,Braided USB A to C cable
+CAT-0126,  Boat earbuds   black ,Wireless Bluetooth earbuds
+CAT-0127,  Boat earbuds   white ,Wireless Bluetooth earbuds
+CAT-0128,  Boat earbuds   blue ,Wireless Bluetooth earbuds
+CAT-0129,  Boat earbuds   green ,Wireless Bluetooth earbuds
+CAT-0130,  Boat earbuds   red ,Wireless Bluetooth earbuds
+CAT-0131,  wireless mouse   black ,Optical mouse with USB receiver
+CAT-0132,  wireless mouse   white ,Optical mouse with USB receiver
+CAT-0133,  wireless mouse   blue ,Optical mouse with USB receiver
+CAT-0134,  wireless mouse   grey ,Optical mouse with USB receiver
+CAT-0135,  wireless mouse   red ,Optical mouse with USB receiver
+CAT-0136,  computer keyboard   black ,Wired full size keyboard
+CAT-0137,  computer keyboard   white ,Wired full size keyboard
+CAT-0138,  computer keyboard   blue ,Wired full size keyboard
+CAT-0139,  computer keyboard   grey ,Wired full size keyboard
+CAT-0140,  computer keyboard   silver ,Wired full size keyboard
+CAT-0141,  Nike socks   black ,Cotton ankle socks
+CAT-0142,  Nike socks   white ,Cotton ankle socks
+CAT-0143,  Nike socks   blue ,Cotton ankle socks
+CAT-0144,  Nike socks   grey ,Cotton ankle socks
+CAT-0145,  Nike socks   red ,Cotton ankle socks
+CAT-0146,  cotton shirt   size S ,"Regular fit, full sleeve"
+CAT-0147,  cotton shirt   size M ,"Regular fit, full sleeve"
+CAT-0148,  cotton shirt   size L ,"Regular fit, full sleeve"
+CAT-0149,  cotton shirt   size XL ,"Regular fit, full sleeve"
+CAT-0150,  cotton shirt   size XXL ,"Regular fit, full sleeve"
+CAT-0151,  denim jeans   size 28 ,Straight fit
+CAT-0152,  denim jeans   size 30 ,Straight fit
+CAT-0153,  denim jeans   size 32 ,Straight fit
+CAT-0154,  denim jeans   size 34 ,Straight fit
+CAT-0155,  denim jeans   size 36 ,Straight fit
+CAT-0156,  woven scarf   black ,Lightweight neck scarf
+CAT-0157,  woven scarf   beige ,Lightweight neck scarf
+CAT-0158,  woven scarf   blue ,Lightweight neck scarf
+CAT-0159,  woven scarf   green ,Lightweight neck scarf
+CAT-0160,  woven scarf   red ,Lightweight neck scarf
+CAT-0161,  leather belt   size 30 ,Adjustable buckle
+CAT-0162,  leather belt   size 32 ,Adjustable buckle
+CAT-0163,  leather belt   size 34 ,Adjustable buckle
+CAT-0164,  leather belt   size 36 ,Adjustable buckle
+CAT-0165,  leather belt   size 38 ,Adjustable buckle
+CAT-0166,  Milton bottle   250ML ,Stainless steel water bottle
+CAT-0167,  Milton bottle   500ML ,Stainless steel water bottle
+CAT-0168,  Milton bottle   750ML ,Stainless steel water bottle
+CAT-0169,  Milton bottle   1L ,Stainless steel water bottle
+CAT-0170,  Milton bottle   1.5L ,Stainless steel water bottle
+CAT-0171,  frying pan   18cm ,Non-stick induction compatible
+CAT-0172,  frying pan   20cm ,Non-stick induction compatible
+CAT-0173,  frying pan   24cm ,Non-stick induction compatible
+CAT-0174,  frying pan   26cm ,Non-stick induction compatible
+CAT-0175,  frying pan   28cm ,Non-stick induction compatible
+CAT-0176,  ceramic mug   200ML ,Microwave safe coffee mug
+CAT-0177,  ceramic mug   250ML ,Microwave safe coffee mug
+CAT-0178,  ceramic mug   300ML ,Microwave safe coffee mug
+CAT-0179,  ceramic mug   350ML ,Microwave safe coffee mug
+CAT-0180,  ceramic mug   400ML ,Microwave safe coffee mug
+CAT-0181,  mixing bowl   500ML ,Stainless steel kitchen bowl
+CAT-0182,  mixing bowl   1L ,Stainless steel kitchen bowl
+CAT-0183,  mixing bowl   2L ,Stainless steel kitchen bowl
+CAT-0184,  mixing bowl   3L ,Stainless steel kitchen bowl
+CAT-0185,  mixing bowl   5L ,Stainless steel kitchen bowl
+CAT-0186,  cotton towel   white ,Soft bath towel
+CAT-0187,  cotton towel   blue ,Soft bath towel
+CAT-0188,  cotton towel   green ,Soft bath towel
+CAT-0189,  cotton towel   grey ,Soft bath towel
+CAT-0190,  cotton towel   pink ,Soft bath towel
+CAT-0191,  silicone spatula   red ,Heat resistant cooking tool
+CAT-0192,  silicone spatula   black ,Heat resistant cooking tool
+CAT-0193,  silicone spatula   green ,Heat resistant cooking tool
+CAT-0194,  silicone spatula   blue ,Heat resistant cooking tool
+CAT-0195,  silicone spatula   orange ,Heat resistant cooking tool
+CAT-0196,  notebook ruled   80 pages ,"Paper stationery, spiral bound"
+CAT-0197,  notebook ruled   100 pages ,"Paper stationery, spiral bound"
+CAT-0198,  notebook ruled   120 pages ,"Paper stationery, spiral bound"
+CAT-0199,  notebook ruled   160 pages ,"Paper stationery, spiral bound"
+CAT-0200,  notebook ruled   200 pages ,"Paper stationery, spiral bound"
+CAT-0201,AMUL BUTTER 100G,"SALTED DAIRY BUTTER, KEEP REFRIGERATED"
+CAT-0202,AMUL BUTTER 200G,"SALTED DAIRY BUTTER, KEEP REFRIGERATED"
+CAT-0203,AMUL BUTTER 500G,"SALTED DAIRY BUTTER, KEEP REFRIGERATED"
+CAT-0204,AMUL BUTTER 1KG,"SALTED DAIRY BUTTER, KEEP REFRIGERATED"
+CAT-0205,AMUL BUTTER 250G,"SALTED DAIRY BUTTER, KEEP REFRIGERATED"
+CAT-0206,TATA SALT 100G,IODISED COOKING SALT
+CAT-0207,TATA SALT 200G,IODISED COOKING SALT
+CAT-0208,TATA SALT 500G,IODISED COOKING SALT
+CAT-0209,TATA SALT 1KG,IODISED COOKING SALT
+CAT-0210,TATA SALT 2KG,IODISED COOKING SALT
+CAT-0211,FORTUNE RICE 500G,BASMATI RICE FOR EVERYDAY MEALS
+CAT-0212,FORTUNE RICE 1KG,BASMATI RICE FOR EVERYDAY MEALS
+CAT-0213,FORTUNE RICE 2KG,BASMATI RICE FOR EVERYDAY MEALS
+CAT-0214,FORTUNE RICE 5KG,BASMATI RICE FOR EVERYDAY MEALS
+CAT-0215,FORTUNE RICE 10KG,BASMATI RICE FOR EVERYDAY MEALS
+CAT-0216,AASHIRVAAD ATTA 500G,WHOLE WHEAT FLOUR
+CAT-0217,AASHIRVAAD ATTA 1KG,WHOLE WHEAT FLOUR
+CAT-0218,AASHIRVAAD ATTA 2KG,WHOLE WHEAT FLOUR
+CAT-0219,AASHIRVAAD ATTA 5KG,WHOLE WHEAT FLOUR
+CAT-0220,AASHIRVAAD ATTA 10KG,WHOLE WHEAT FLOUR
+CAT-0221,BRITANNIA BISCUIT 50G,CRUNCHY TEA-TIME SNACK
+CAT-0222,BRITANNIA BISCUIT 100G,CRUNCHY TEA-TIME SNACK
+CAT-0223,BRITANNIA BISCUIT 200G,CRUNCHY TEA-TIME SNACK
+CAT-0224,BRITANNIA BISCUIT 400G,CRUNCHY TEA-TIME SNACK
+CAT-0225,BRITANNIA BISCUIT 600G,CRUNCHY TEA-TIME SNACK
+CAT-0226,NESTLE MILK 200ML,UHT TONED MILK CARTON
+CAT-0227,NESTLE MILK 500ML,UHT TONED MILK CARTON
+CAT-0228,NESTLE MILK 1L,UHT TONED MILK CARTON
+CAT-0229,NESTLE MILK 2L,UHT TONED MILK CARTON
+CAT-0230,NESTLE MILK 100ML,UHT TONED MILK CARTON
+CAT-0231,PASTA PENNE 100G,DURUM WHEAT PASTA
+CAT-0232,PASTA PENNE 200G,DURUM WHEAT PASTA
+CAT-0233,PASTA PENNE 500G,DURUM WHEAT PASTA
+CAT-0234,PASTA PENNE 1KG,DURUM WHEAT PASTA
+CAT-0235,PASTA PENNE 250G,DURUM WHEAT PASTA
+CAT-0236,ROLLED OATS 100G,PLAIN BREAKFAST CEREAL
+CAT-0237,ROLLED OATS 200G,PLAIN BREAKFAST CEREAL
+CAT-0238,ROLLED OATS 500G,PLAIN BREAKFAST CEREAL
+CAT-0239,ROLLED OATS 1KG,PLAIN BREAKFAST CEREAL
+CAT-0240,ROLLED OATS 750G,PLAIN BREAKFAST CEREAL
